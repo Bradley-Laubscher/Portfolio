@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+    font-family: 'Eczar', Serif;
+    font-family: 'Merriweather', Serif;
+    line-height: 1.5;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../public/Resources/PBackground.jpeg);
+    background-size: cover;
+    position: fixed;
+    animation: changeColor 5s linear infinite;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateX(0);
+    transform-origin: left;
+    position: fixed;
+    top: 15%;
+    right: 1%;
+    width: 100%;
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+nav h4 {
+    display: block;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo1 img {
+    height: 60px;
+    width: 60px;
+    animation: rotation 7s linear infinite;
+}
+
+.logo2 img {
+    height: 60px;
+    width: 60px;
+    animation: rotation-reverse 7s linear infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+@keyframes rotation-reverse {
+    from {
+        transform: rotate(359deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 1024px) {
+    nav a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    nav a{
+        font-size: 15px;
+    }
+    .logo1 img, .logo2 img {
+        height: 30px;
+        width: 30px;
+    }
+}

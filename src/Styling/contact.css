@@ -1,0 +1,62 @@
+.contact-me {
+    position: fixed;
+    top: 15%;
+    right: 32%;
+    width: 35%;
+    text-align: center;
+}
+
+.contact-me h2{
+    margin-bottom: 4%;
+}
+
+.contact-me li {
+    list-style-type: none;
+    margin: 5% 0px;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.fa-brands {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+   .contact-me {
+    top: 15%;
+    right: 20%;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.678);
+   }
+   .contact-me li {
+        line-height: 60px;
+        font-size: 15px;
+    }
+    .contact-me h2 {
+        font-size: 15px;
+    }
+    .contact-me a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+    .contact-me {
+        top: 15%;
+        right: 15%;
+        width: 70%;
+        background-color: rgba(255, 255, 255, 0.678);
+    }
+    .contact-me li {
+        line-height: 60px;
+        font-size: 25px;
+    }
+    .contact-me h2 {
+        font-size: 30px;
+    }
+    .contact-me a {
+        font-size: 25px;
+    }
+}
