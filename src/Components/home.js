@@ -11,7 +11,7 @@ function Home() {
       exit={{ x: window.innerWidth, opacity: 0, transition: {type: "fade", duration: 1}}}>
         <h1>Hi, I'm Bradley Laubscher</h1>
         <span className='entry-link'>
-        <h2><Link to='/about'>Learn more about me here!</Link></h2>
+        <h2><Link to='/about'>Learn more about me <u>here!</u></Link></h2>
         </span>
       </motion.div>
     )
