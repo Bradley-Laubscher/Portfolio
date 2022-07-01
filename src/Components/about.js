@@ -18,7 +18,7 @@ function About() {
                         <i className="fab fa-css3-alt" title='CSS'></i>
                         <i className="fab fa-js" title='JavaScript'></i>
                         <i className="fab fa-react" title='React'></i>
-                        <i><img src='../Resources/redux_icon.png' alt='redux icon' id='reduxIcon' title='Redux'/></i>
+                        <i><img src='../Resources/redux-logo-black-and-white.png' alt='redux icon' id='reduxIcon' title='Redux'/></i>
                         <i className="fab fa-git" title='Git'></i>
                         <i className="fab fa-github" title='GitHub'></i>
                         <i className="fab fa-chrome" title='Chrome'></i>

@@ -2,29 +2,28 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Projects() {
-
     return (
         <motion.div
         initial={{ opacity: 0, y: 200, transition: {type: "fade", duration: 1 }}}
         animate={{ opacity: 1, transition: {type: "fade", duration: 1}}}
         exit={{ x: window.innerWidth, opacity: 0, transition: {type: "fade", duration: 1}}}>
             <section className='projects-container'>
-                {/* <div className='projects duly-noted'>
+                <div className='projects duly-noted'>
                     <div className='tooltip'>
                         <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
                         <span className='tooltiptext'>Built using:<br/> JavaScript, React, Redux, Html and CSS</span>
                     </div>
                     <p className='project-name'>Duly Noted</p>
-                    <button><a href='' target='_blank' rel='noreferrer' >Visit Site</a></button>
-                </div> */}
-                {/* <div className='projects reddit-app'>
+                    <button><a href='https://dulynoted-webapp.netlify.app/' target='_blank' rel='noreferrer' >Visit Site</a></button>
+                </div>
+                <div className='projects reddit-app'>
                     <div className='tooltip'>
-                        <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
+                        <img src='../Resources/info.png' alt='more information icon' className='infoIcon'></img>
                         <span className='tooltiptext'>Built using:<br/> JavaScript, React, Html and CSS</span>
                     </div>
                     <p className='project-name'>Reddit-App</p>
-                    <button><a href='' target='_blank' rel='noreferrer' >Visit Site</a></button>
-                </div> */}
+                    <button><a href='https://redditminimalproject.netlify.app/' target='_blank' rel='noreferrer' >Visit Site</a></button>
+                </div>
                 <div className='projects top-travel-destinations'>
                     <div className='tooltip'>
                         <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
@@ -35,7 +34,7 @@ function Projects() {
                 </div>
                 <div className='projects tea-cozy'>
                     <div className='tooltip'>
-                        <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
+                        <img src='../Resources/info.png' alt='more information icon' className='infoIcon'></img>
                         <span className='tooltiptext'>Built using:<br/> Html and CSS</span>
                     </div>
                     <p className='project-name'>Tea Cozy</p>

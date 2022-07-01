@@ -7,72 +7,84 @@
     }
 }
 
-.home-heading {
+.home-container {
     z-index: 1;
     position: fixed;
-    top: 43%;
+    top: 20%;
     left: 35%;
     width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.headings {
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gabriola', sans-serif;
+}
+
+.homeButtons {
+    margin: 2% 10%;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    transition: transform 0.5s;
     background: linear-gradient(#18f1df4b, #18f1df);
     animation: changeColor 5s linear infinite;
 }
 
-.home-heading h1, h2 {
-    padding: 10px;
-    text-align: center;
+.button1 {
+    border-radius: 0px 10px 10px 0px;
 }
 
-.home-heading h1 {
-    font-size: 35px;
+.button2 {
+    border-radius: 10px 0px 0px 10px;
 }
 
-.home-heading h2 {
-    font-size: 35px;
+.homeButtons a {
+    font-size: 20px;
+    font-family: 'Gabriola', sans-serif;
+    color: white;
 }
 
-.entry-link {
-    display: flex;
-    justify-content: center;
-    transition: transform 0.5s;
-}
-
-.entry-link:hover {
+.homeButtons:hover {
     transform: scale(1.1);
 }
 
 @media screen and (max-width: 480px) {
-    .home-heading {
+    .home-container {
         top: 41.3%;
         left: 14%;
         width: 70%;
-        background-color: none;
-        border: none;
     }
-    .home-heading h1, a {
+    .headings {
         font-size: 20px;
-        margin: 0;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .home-heading {
+    .home-container {
         top: 45%;
         left: 15%;
         width: 70%;
     }
-    .home-heading h1, h2 {
+    .headings {
         font-size: 30px;
-        margin: 0;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .home-heading {
+    .home-container {
         top: 44.3%;
         left: 14%;
         width: 70%;
     }
-    .home-heading h1,h2 {
+    .headings {
         font-size: 35px;
+    }
+
+    .homeButtons {
+        font-size: 25px;
     }
 }
