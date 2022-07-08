@@ -9,9 +9,17 @@ function About() {
         exit={{ x: window.innerWidth, opacity: 0, transition: {type: "fade", duration: 1}}}> 
             <section className='about-me-section'>
                 <h2>About Me</h2>
-                <p>I am a self taught developer, persuing a career within the field of software development. I am in the process of completing an online course through the CodeCademy website, which is teaching me how to make use of various tools and coding languages so that I am well equiped to enter the field.</p>
-                <p>I thoroughly enjoy solving problems and working on challenging tasks and the satisfaction I recieve from the completion of those tasks is highly motivational and fulfilling.</p>
-                <p>In my free time I enjoy engaging in outdoor acticities such as surfing and rock climbing when the weather allows for it, and when it does not, I enjoy relaxing with friends, playing games or watching movies.</p>
+                <p> I am a self-taught developer, pursuing a career within the field of software development. 
+                    I thoroughly enjoy solving problems and working on challenging tasks which lead me to the field of software development. 
+                    What started as an experiment, building basic static websites and completing simple coding challenges has turned into
+                    an ever-growing passion for software development.
+                </p>
+                <p> From the moment I took on the task of learning software development I knew I was hooked, building my first static website, 
+                    resolving issues, and eventually achieving my goals and experiencing the satisfaction of my accomplishments.
+                    I look forward to expanding my knowledge within the field while building a career which I am proud of.
+                </p>
+                <p> I am sure the path ahead will involve winding roads, gruelling challenges,  as well as many error messages, however, I am keen to take 
+                    on those challenges in search of the growth and eureka moments which follow.</p>
                     <h2 id='skills'>Skills</h2>
                     <div className='skills-list'>
                         <i className="fab fa-html5" title='Html'></i>
