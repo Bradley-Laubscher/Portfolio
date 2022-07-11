@@ -10,7 +10,7 @@ function About() {
             <section className='about-me-section'>
                 <h2>About Me</h2>
                 <p> I am a self-taught developer, pursuing a career within the field of software development. 
-                    I thoroughly enjoy solving problems and working on challenging tasks which lead me to the field of software development. 
+                    I thoroughly enjoy solving problems and working on challenging tasks which led me to the field of software development. 
                     What started as an experiment, building basic static websites and completing simple coding challenges has turned into
                     an ever-growing passion for software development.
                 </p>
