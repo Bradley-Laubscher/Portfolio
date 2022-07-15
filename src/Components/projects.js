@@ -21,7 +21,7 @@ function Projects() {
                         <img src='../Resources/info.png' alt='more information icon' className='infoIcon'></img>
                         <span className='tooltiptext'>A webapp used to search Reddits database and display articles which match the search.<br/>Built using:<br/> JavaScript, React, Html and CSS</span>
                     </div>
-                    <p className='project-name'>Reddit-App</p>
+                    <p className='project-name'>Reddit Minimal</p>
                     <button><a href='https://redditminimalproject.netlify.app/' target='_blank' rel='noreferrer' >Visit Site</a></button>
                 </div>
                 <div className='projects top-travel-destinations'>
