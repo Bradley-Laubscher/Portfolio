@@ -6,11 +6,18 @@ import './Styling/home.css';
 import './Styling/projects.css';
 import './Styling/shared.css';
 import AnimatedRoutes from "./Components/animatedRoutes";
+import BlurImage from './Components/blurImage';
 
 function App() {
   return (
     <div>
       <div>
+        <BlurImage 
+          className="backgroundImage"
+          src='./Resources/laptop.jpg'
+          base64='./Resources/laptop-small.jpg'
+          alt='laptop open in the dark'
+        />
         <section className='background'>
           <nav>
             <span className='logo1'>
