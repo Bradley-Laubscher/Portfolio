@@ -8,13 +8,12 @@
     color: white;
 }
 
-.background {
+.backgroundImage {
     width: 100%;
     height: 100vh;
-    background-image: url(../../public/Resources/laptop.jpg);
-    background-size: cover;
     position: fixed;
     animation: changeColor 5s linear infinite;
+    z-index: -1;
 }
 
 nav {
