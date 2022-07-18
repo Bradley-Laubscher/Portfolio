@@ -32,6 +32,7 @@ nav h4 {
 a {
     text-decoration: none;
     color: #18f1df;
+    animation: changeColor 5s linear infinite;
 }
 
 .navLinks {
