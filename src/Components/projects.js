@@ -27,7 +27,7 @@ function Projects() {
                 <div className='projects top-travel-destinations'>
                     <div className='tooltip'>
                         <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
-                        <span className='tooltiptext'>A website providing information on top travel destination around the world and a few tips for traveling.<br/>Built using:<br/> Html and CSS</span>
+                        <span className='tooltiptext'>A website providing information on top travel destination around the world and a few tips for traveling.<br/>Built using:<br/> Next.js, React, Javascript, JSX and CSS</span>
                     </div>
                     <p className='project-name'>Top Travel Destinations</p>
                     <button><a href='https://top-travel-destinations.vercel.app/' target='_blank' rel="noreferrer">Visit Site</a></button>
