@@ -30,7 +30,7 @@ function Projects() {
                         <span className='tooltiptext'>A website providing information on top travel destination around the world and a few tips for traveling.<br/>Built using:<br/> Html and CSS</span>
                     </div>
                     <p className='project-name'>Top Travel Destinations</p>
-                    <button><a href='https://top-travel-destinations-7rd529og8-bradley-laubscher.vercel.app/' target='_blank' rel="noreferrer">Visit Site</a></button>
+                    <button><a href='https://top-travel-destinations.vercel.app/' target='_blank' rel="noreferrer">Visit Site</a></button>
                 </div>
                 <div className='projects tea-cozy'>
                     <div className='tooltip'>
