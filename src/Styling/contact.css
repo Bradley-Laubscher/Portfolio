@@ -6,13 +6,17 @@
     text-align: center;
 }
 
-.contact-me h2{
+.contact-me h2 {
     margin-bottom: 4%;
 }
 
 .contact-me li {
     list-style-type: none;
     margin: 5% 0px;
+}
+
+.contact-me a {
+    background-color: rgba(8, 0, 0, 0.164);
 }
 
 .fab {
