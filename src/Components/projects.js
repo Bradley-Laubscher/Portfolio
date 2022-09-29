@@ -8,6 +8,14 @@ function Projects() {
         animate={{ opacity: 1, transition: {type: "fade", duration: 1}}}
         exit={{ x: window.innerWidth, opacity: 0, transition: {type: "fade", duration: 1}}}>
             <section className='projects-container'>
+                <div className='projects sa-surf-spots'>
+                    <div className='tooltip'>
+                        <img src='../Resources/info.png' alt='more information icon' className='infoIcon'></img>
+                        <span className='tooltiptext'>A webapp build to display marked popular surf spots on a map of South Africa<br/>Built using:<br/> AngularJS, JavaScript, Html and CSS</span>
+                    </div>
+                    <p className='project-name'>SA Surf Spots</p>
+                    <button><a href='https://sa-surf-spots.vercel.app/' target='_blank' rel="noreferrer">Visit Site</a></button>
+                </div>
                 <div className='projects duly-noted'>
                     <div className='tooltip'>
                         <img src='../Resources/info-2.png' alt='more information icon' className='infoIcon'></img>
@@ -48,6 +56,7 @@ function Projects() {
                     <p className='project-name'>Surf Club</p>
                     <button><a href='https://bradley-laubscher.github.io/Surf-Club/' target='_blank' rel="noreferrer">Visit Site</a></button>
                 </div>
+                
             </section>
         </motion.div>
     )
