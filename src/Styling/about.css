@@ -25,7 +25,7 @@
 }
 
 .skills-list:hover {
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .skills-list .fab, .fas, #reduxIcon{
@@ -33,7 +33,7 @@
 }
 
 .skills-list .fab:hover, .fas:hover, #reduxIcon:hover {
-    transform: scale(3);
+    transform: scale(2);
 }
 
 #reduxIcon {
