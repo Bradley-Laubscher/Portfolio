@@ -28,20 +28,12 @@
     transform: scale(1.2);
 }
 
-.skills-list .fab, .fas, #reduxIcon{
+.skills-list .fab, .fas{
     transition: transform 0.5s;
 }
 
-.skills-list .fab:hover, .fas:hover, #reduxIcon:hover {
+.skills-list .fab:hover, .fas:hover {
     transform: scale(2);
-}
-
-#reduxIcon {
-    color: white;
-    line-height: 1;
-    max-width: 24px;
-    max-height: 24px;
-    justify-items: baseline;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
