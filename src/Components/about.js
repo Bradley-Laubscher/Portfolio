@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SiRedux } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 function About() {
     return (
@@ -26,11 +29,13 @@ function About() {
                         <i className="fab fa-css3-alt" title='CSS'></i>
                         <i className="fab fa-js" title='JavaScript'></i>
                         <i className="fab fa-react" title='React'></i>
-                        <i><img src='../Resources/redux-logo-black-and-white.png' alt='redux icon' id='reduxIcon' title='Redux'/></i>
+                        <i className="fab"><SiRedux title='Redux' /></i>
                         <i className="fab fa-git" title='Git'></i>
                         <i className="fab fa-github" title='GitHub'></i>
                         <i className="fab fa-chrome" title='Chrome'></i>
                         <i className="fas fa-terminal" title='Terminal'></i>
+                        <i className="fab"><FaAngular title='AngularJS'/></i>
+                        <i className="fab"><SiNextdotjs title='Next.js'/></i>
                     </div>
             </section>
         </motion.div>
