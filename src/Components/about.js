@@ -18,7 +18,8 @@ function About() {
                 <p>
                     What started as an experiment, building basic static websites and completing simple coding challenges has turned into
                     an ever-growing passion for software development.
-                    I look forward to expanding my skills and knowledge within the field while building a career which I am proud of.
+                    So far majorit of my learning has revolved around JavaScript, however, I am open to learning any and all languages within the field.
+                    I look forward to expanding my skills and knowledge, while building a career which I am proud of.
                 </p>
                 <p> I am sure the path ahead will involve winding roads, gruelling challenges,  as well as many error messages, however, I am keen to take 
                     on those challenges in search of the growth and eureka moments which follow.</p>
