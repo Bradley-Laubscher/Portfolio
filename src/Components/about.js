@@ -18,7 +18,7 @@ function About() {
                 <p>
                     What started as an experiment, building basic static websites and completing simple coding challenges has turned into
                     an ever-growing passion for software development.
-                    So far majorit of my learning has revolved around JavaScript, however, I am open to learning any and all languages within the field.
+                    So far majority of my learning has revolved around JavaScript, however, I am open to learning any and all languages within the field.
                     I look forward to expanding my skills and knowledge, while building a career which I am proud of.
                 </p>
                 <p> I am sure the path ahead will involve winding roads, gruelling challenges,  as well as many error messages, however, I am keen to take 
