@@ -38,8 +38,6 @@
     display: absolute;
     font-weight: bold;
     font-size: 15px;
-    color: #18f1df;
-    animation: changeColor 5s linear infinite;
     background-color: rgba(0, 0, 0, 0.721);
     width: 80%;
     margin-left: 10%;
