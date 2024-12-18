@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { SiRedux } from "react-icons/si";
+import { SiDart, SiFlutter, SiRedux } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 
@@ -12,30 +12,27 @@ function About() {
         exit={{ x: window.innerWidth, opacity: 0, transition: {type: "fade", duration: 1}}}> 
             <section className='about-me-section'>
                 <h2>About Me</h2>
-                <p> I am a self-taught developer, pursuing a career within the field of software development. 
-                    I thoroughly enjoy solving problems and working on challenging tasks, which is what led me to the field of software development. 
+                <p> Self-taught Software Engineer with two years of experience in the FinTech industry, specializing in both front-end 
+                    and back-end development, with a stronger focus on front-end technologies.
                 </p>
-                <p>
-                    What started as an experiment, building basic static websites and completing simple coding challenges has turned into
-                    an ever-growing passion for software development.
-                    So far majority of my learning has revolved around JavaScript, however, I am open to learning any and all languages within the field.
-                    I look forward to expanding my skills and knowledge, while building a career which I am proud of.
+                <p>I thrive on new challenges and am passionate about creating user-centric applications that enhance user experience. 
+                    Eager to leverage my skills in a dynamic environment, I am committed to continuous learning and innovation. 
                 </p>
-                <p> I am sure the path ahead will involve winding roads, gruelling challenges,  as well as many error messages, however, I am keen to take 
-                    on those challenges in search of the growth and eureka moments which follow.</p>
                     <h2 id='skills'>Skills</h2>
                     <div className='skills-list'>
-                        <i className="fab fa-html5" title='Html'></i>
-                        <i className="fab fa-css3-alt" title='CSS'></i>
-                        <i className="fab fa-js" title='JavaScript'></i>
-                        <i className="fab fa-react" title='React'></i>
-                        <i className="fab"><SiRedux title='Redux' /></i>
-                        <i className="fab fa-git" title='Git'></i>
-                        <i className="fab fa-github" title='GitHub'></i>
-                        <i className="fab fa-chrome" title='Chrome'></i>
-                        <i className="fas fa-terminal" title='Terminal'></i>
-                        <i className="fab"><FaAngular title='AngularJS'/></i>
-                        <i className="fab"><SiNextdotjs title='Next.js'/></i>
+                    <i className="fab fa-html5" title="Html"></i>
+                    <i className="fab fa-css3-alt" title="CSS"></i>
+                    <i className="fab fa-js" title="JavaScript"></i>
+                    <i className="fab fa-react" title="React"></i>
+                    <i className="fab"><SiRedux title="Redux" /></i>
+                    <i className="fab fa-git" title="Git"></i>
+                    <i className="fab fa-github" title="GitHub"></i>
+                    <i className="fab fa-chrome" title="Chrome"></i>
+                    <i className="fas fa-terminal" title="Terminal"></i>
+                    <i className="fab"><FaAngular title="AngularJS" /></i>
+                    <i className="fab"><SiNextdotjs title="Next.js" /></i>
+                    <i className="fab"><SiDart title="Dart" /></i>
+                    <i className="fab"><SiFlutter title="Flutter" /></i>
                     </div>
             </section>
         </motion.div>
