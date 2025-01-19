@@ -47,7 +47,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/map-of-south-africa.gif');
     background-size: cover;
     margin-top: 2%;
 }
@@ -56,7 +55,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/NotePad.jpeg');
     background-size: cover;
     margin-top: 2%;
 }
@@ -65,7 +63,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/RedditLogo.jpg');
     background-size: cover;
     margin-top: 2%;
 } 
@@ -74,7 +71,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/Travel.jpg');
     background-size: cover;
     margin-top: 2%;
 }
@@ -83,7 +79,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/organic\ tea.jpg');
     background-size: cover;
     margin-top: 2%;
 }
@@ -93,7 +88,6 @@
     text-align: center;
     width: 48%;
     height: 200px;
-    background-image: url('/public/Resources/Surf-boards.jpg');
     background-size: cover;
     margin-top: 2%;
 }
