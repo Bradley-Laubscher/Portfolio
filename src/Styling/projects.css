@@ -19,7 +19,7 @@
     margin: 0 auto;
     margin-top: 80px; 
     opacity: 0.8;
-    background-color: rgba(0, 0, 0, 0.878);
+    background-color: black;
 }
 
 .projects-container button:hover {
@@ -28,6 +28,8 @@
 
 .projects {
     transition: transform 0.3s;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .projects:hover {

@@ -16,7 +16,7 @@ function About() {
                     and back-end development, with a stronger focus on front-end technologies.
                 </p>
                 <p>I thrive on new challenges and am passionate about creating user-centric applications that enhance user experience. 
-                    Eager to leverage my skills in a dynamic environment, I am committed to continuous learning and innovation. 
+                    I am driven to apply my skills while constantly learning and innovating.
                 </p>
                     <h2 id='skills'>Skills</h2>
                     <div className='skills-list'>
