@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 200, transition: { type: "fade", duration: 1 } }}
+      initial={{ opacity: 0, y: 100, transition: { type: "fade", duration: 1 } }}
       animate={{ opacity: 1, transition: { type: "fade", duration: 1 } }}
       exit={{
         x: window.innerWidth,

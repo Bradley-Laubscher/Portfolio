@@ -1,13 +1,14 @@
+/* General Reset */
 * {
     margin: 0;
-    Padding: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Eczar', Serif;
     font-family: 'Merriweather', Serif;
     line-height: 1.5;
     color: white;
 }
 
+/* Background Image */
 .backgroundImage {
     width: 100%;
     height: 100vh;
@@ -16,76 +17,75 @@
     z-index: -1;
 }
 
+/* Navbar Styling */
 nav {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     border-bottom: 2px solid white;
-}
-
-nav h4 {
-    display: block;
-    font-size: 25px;
     padding: 10px 0;
-    margin-top: 10px;
+    position: relative;
 }
 
-a {
-    text-decoration: none;
-    color: #18f1df;
-    animation: changeColor 5s linear infinite;
+.logo1 {
+    position: absolute;
+    left: 20px;
 }
 
+/* Logo Styling */
+.logo1 img {
+    height: 35px;
+    width: 35px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo1 img:hover, .logo2 img:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar Links */
 .navLinks {
     font-size: 22px;
+    margin: 0 15px; 
 }
 
-.logo1 img {
-    height: 30px;
-    width: 30px;
+.navLinks:hover {
+    color: #18f1df;
 }
 
-.logo2 img {
-    height: 30px;
-    width: 30px;
+/* Underline Animation on Hover */
+.navLinks::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background: #18f1df;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
-@media screen and (min-width: 427px) and (max-width: 1024px) {
-    nav a{
-        font-size: 20px;
+.navLinks:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Mobile Responsive Navigation */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 3%;
+        text-align: center;
     }
 
-    .logo1 img {
-        height: 20px;
-        width: 20px;
-    }
-    
-    .logo2 img {
-        height: 20px;
-        width: 20px;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    * {
-        font-size: 15px;
+    .navLinks {
+        font-size: 18px;
+        margin: 10px 0;
     }
 
     .logo1 img, .logo2 img {
         height: 30px;
         width: 30px;
-    }
-
-    .navLinks {
-        font-size: 15px;
-    }
-
-    .logo1 img {
-        height: 20px;
-        width: 20px;
-    }
-    
-    .logo2 img {
-        height: 20px;
-        width: 20px;
     }
 }
