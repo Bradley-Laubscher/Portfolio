@@ -31,13 +31,12 @@ function Projects() {
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-              A webapp built to display marked popular surf spots on a map of South Africa.<br />Built using:<br />
-              AngularJS, JavaScript, Html, and CSS
+            An application displaying surf conditions for some of Cape Towns local spots. Making use of the Open-Meteo marine API.<br />Built using:<br /> Dart and Flutter
             </span>
           </div>
-          <p className="project-name">SA Surf Spots</p>
+          <p className="project-name">Surf Spot</p>
           <button className="visit-btn">
-            <a href="https://sa-surf-spots.vercel.app/" target="_blank" rel="noreferrer">
+            <a href="https://bradley-laubscher.github.io/surfspot/" target="_blank" rel="noreferrer">
               Visit
             </a>
           </button>
