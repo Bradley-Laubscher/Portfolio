@@ -36,7 +36,7 @@ function Projects() {
           </div>
           <p className="project-name">Surf Spot</p>
           <button className="visit-btn">
-            <a href="https://bradley-laubscher.github.io/surfspot/" target="_blank" rel="noreferrer">
+            <a href="https://surfspot.netlify.app/" target="_blank" rel="noreferrer">
               Visit
             </a>
           </button>
