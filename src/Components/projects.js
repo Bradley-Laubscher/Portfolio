@@ -13,7 +13,14 @@ function Projects() {
       }}
     >
       <section className="projects-container">
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/Marketplace.jpg)' }}>
+        
+        <a
+          href="https://bradley-laubscher.github.io/marketplace/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/Marketplace.jpg)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
@@ -21,86 +28,88 @@ function Projects() {
             </span>
           </div>
           <p className="project-name">Marketplace</p>
-          <button className="visit-btn">
-            <a href="https://bradley-laubscher.github.io/marketplace/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/map-of-south-africa.gif)' }}>
+        </a>
+
+        <a
+          href="https://surfspot.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/map-of-south-africa.gif)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-            An application displaying surf conditions for some of Cape Towns local spots. Making use of the Open-Meteo marine API.<br />Built using:<br /> Dart and Flutter
+              An application displaying surf conditions for some of Cape Town's local spots. Making use of the Open-Meteo marine API.<br />Built using:<br /> Dart and Flutter
             </span>
           </div>
           <p className="project-name">Surf Spot</p>
-          <button className="visit-btn">
-            <a href="https://surfspot.netlify.app/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/NotePad.jpeg)' }}>
+        </a>
+
+        <a
+          href="https://dulynoted-webapp.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/NotePad.jpeg)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-              A notepad webapp that allows the user to take notes, create categories for notes, and remove/update/filter
-              notes.<br />Built using:<br /> JavaScript, React, Redux, Html, and CSS
+              A notepad webapp that allows the user to take notes, create categories for notes, and remove/update/filter notes.<br />Built using:<br /> JavaScript, React, Redux, Html, and CSS
             </span>
           </div>
           <p className="project-name">Duly Noted</p>
-          <button className="visit-btn">
-            <a href="https://dulynoted-webapp.netlify.app/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/RedditLogo.jpg)' }}>
+        </a>
+
+        <a
+          href="https://redditminimalproject.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/RedditLogo.jpg)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-              A webapp used to search Reddit's database and display articles that match the search.<br />Built using:<br />
-              JavaScript, React, Html, and CSS
+              A webapp used to search Reddit's database and display articles that match the search.<br />Built using:<br /> JavaScript, React, Html, and CSS
             </span>
           </div>
           <p className="project-name">Reddit Minimal</p>
-          <button className="visit-btn">
-            <a href="https://redditminimalproject.netlify.app/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/Travel.jpg)' }}>
+        </a>
+
+        <a
+          href="https://top-travel-destinations.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/Travel.jpg)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-              A website providing information on top travel destinations around the world and a few tips for
-              traveling.<br />Built using:<br /> Next.js, React, Javascript, JSX, and CSS
+              A website providing information on top travel destinations around the world and a few tips for traveling.<br />Built using:<br /> Next.js, React, Javascript, JSX, and CSS
             </span>
           </div>
           <p className="project-name">Top Travel Destinations</p>
-          <button className="visit-btn">
-            <a href="https://top-travel-destinations.vercel.app/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
-        <div className="projects" style={{ backgroundImage: 'url(/Resources/Surf-boards.jpg)' }}>
+        </a>
+
+        <a
+          href="https://bradley-laubscher.github.io/Surf-Club/"
+          target="_blank"
+          rel="noreferrer"
+          className="projects"
+          style={{ backgroundImage: 'url(/Resources/Surf-boards.jpg)' }}
+        >
           <div className="tooltip">
             <img src="/Resources/info.png" alt="more information icon" className="infoIcon" />
             <span className="tooltiptext">
-              A homepage for a surf club advertising their purpose and displaying a few images to entice surfers to
-              join.<br />Built using:<br /> Html and CSS
+              A homepage for a surf club advertising their purpose and displaying a few images to entice surfers to join.<br />Built using:<br /> Html and CSS
             </span>
           </div>
           <p className="project-name">Surf Club</p>
-          <button className="visit-btn">
-            <a href="https://bradley-laubscher.github.io/Surf-Club/" target="_blank" rel="noreferrer">
-              Visit
-            </a>
-          </button>
-        </div>
+        </a>
+
       </section>
     </motion.div>
   );
