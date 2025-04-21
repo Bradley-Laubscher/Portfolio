@@ -35,12 +35,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
           className="projects"
-          style={{
-            backgroundImage: 'url(/Resources/map-of-south-africa.gif)',
-            backgroundSize: 'cover', // or 'contain' depending on your design
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
+          style={{ backgroundImage: 'url(/Resources/map-of-south-africa.gif)'}}
         >
           <div className="tooltip">
             <img src="/Resources/info-2.png" alt="more information icon" className="infoIcon" />
