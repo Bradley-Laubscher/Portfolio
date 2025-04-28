@@ -35,7 +35,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
           className="projects"
-          style={{ backgroundImage: 'url(/Resources/Surf-Boards.jpg)'}}
+          style={{ backgroundImage: 'url(/Resources/Surfboards.jpg)'}}
         >
           <div className="tooltip">
             <img src="/Resources/info.png" alt="more information icon" className="infoIcon" />
