@@ -1,9 +1,9 @@
 import { Link }  from 'react-router-dom';
-import './Styling/about.css';
-import './Styling/contact.css';
-import './Styling/home.css';
-import './Styling/projects.css';
-import './Styling/shared.css';
+import './styling/about.css';
+import './styling/contact.css';
+import './styling/home.css';
+import './styling/projects.css';
+import './styling/shared.css';
 import AnimatedRoutes from "./components/animatedRoutes";
 import BlurImage from './components/blurImage';
 
