@@ -20,7 +20,7 @@ function App() {
         <section className='background'>
           <nav>
             <span className='logo1'>
-              <Link to='/'><img src="../Resources/house.png" alt="House icon" /></Link>
+              <Link to='/'><img src="/Resources/house.png" alt="House icon" /></Link>
             </span>
             <Link to='/about' className='navLinks'>About Me</Link>
             <Link to='/projects' className='navLinks'>Projects</Link>
