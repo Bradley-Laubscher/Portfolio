@@ -1,4 +1,3 @@
-import React from 'react';
 import Home from "./home";
 import Projects from "./projects";
 import Contact from "./contact";

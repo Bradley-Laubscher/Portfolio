@@ -1,12 +1,11 @@
-import React from "react";
 import { Link }  from 'react-router-dom';
 import './Styling/about.css';
 import './Styling/contact.css';
 import './Styling/home.css';
 import './Styling/projects.css';
 import './Styling/shared.css';
-import AnimatedRoutes from "./Components/animatedRoutes";
-import BlurImage from './Components/blurImage';
+import AnimatedRoutes from "./components/animatedRoutes";
+import BlurImage from './components/blurImage';
 
 function App() {
   return (
