@@ -1,4 +1,61 @@
 import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt, FaLock } from "react-icons/fa";
+
+const projects = [
+  {
+    name: "SquadSync",
+    description:
+      "A football group tracker for managing sessions, seasons, players, stats and more.",
+    tech: ["C#", ".NET", "Flutter"],
+    demo: "https://squadsync.bradleylaubscher.workers.dev/",
+    source: null, // private repository
+    image: "/resources/squadsync.png",
+  },
+  {
+    name: "NextUp",
+    description:
+      "A game tracking tool with notifications for updates and sales, powered by the IGDB (Twitch) and Steam APIs.",
+    tech: ["C#", ".NET"],
+    demo: "https://next-up-8qce.onrender.com",
+    source: "https://github.com/Bradley-Laubscher/next-up",
+    image: "/resources/NextUp.png",
+  },
+  {
+    name: "Surf Spot",
+    description:
+      "Displays surf conditions for Cape Town's local spots and notifies subscribers when conditions are good, using the Open-Meteo marine API.",
+    tech: ["Dart", "Flutter"],
+    demo: "https://surfspot.netlify.app/",
+    source: "https://github.com/Bradley-Laubscher/surfspot",
+    image: "/resources/Surfboards.jpg",
+  },
+  {
+    name: "Marketplace",
+    description: "A dynamic marketplace for multiple merchant types.",
+    tech: ["Dart", "Flutter"],
+    demo: "https://bradley-laubscher.github.io/marketplace/",
+    source: "https://github.com/Bradley-Laubscher/marketplace",
+    image: "/resources/Marketplace.jpg",
+  },
+  {
+    name: "Duly Noted",
+    description:
+      "A notepad webapp for taking notes, organising them into categories, and filtering, updating or removing them.",
+    tech: ["React", "Redux", "JavaScript"],
+    demo: "https://dulynoted-webapp.netlify.app/",
+    source: "https://github.com/Bradley-Laubscher/DulyNoted",
+    image: "/resources/NotePad.jpeg",
+  },
+  {
+    name: "Top Travel Destinations",
+    description:
+      "Information on top travel destinations around the world, along with a few tips for traveling.",
+    tech: ["Next.js", "React"],
+    demo: "https://top-travel-destinations.vercel.app/",
+    source: "https://github.com/Bradley-Laubscher/Top-Travel-Destinations",
+    image: "/resources/Travel.jpg",
+  },
+];
 
 function Projects() {
   return (
@@ -12,103 +69,49 @@ function Projects() {
       }}
     >
       <section className="projects-container">
-
-      <a
-        href="https://squadsync.bradleylaubscher.workers.dev/"
-        target="_blank"
-        rel="noreferrer"
-        className="projects"
-        style={{ backgroundImage: 'url(/resources/squadsync.png)' }}
-      >
-        <div className="tooltip">
-          <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-          <span className="tooltiptext">
-            A football group tracker for managing sessions, seasons, players, stats and more.<br /><br />Built using:<br /> .NET/C# and Flutter
-          </span>
-        </div>
-        <p className="project-name">SquadSync</p>
-      </a>
-        
-        <a
-          href="https://next-up-8qce.onrender.com"
-          target="_blank"
-          rel="noreferrer"
-          className="projects"
-          style={{ backgroundImage: 'url(/resources/NextUp.png)' }}
-        >
-          <div className="tooltip">
-            <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-            <span className="tooltiptext">
-              A game tracking tool with notifications regarding updates and sales. Makes use of the IGDB(Twitch) and Steam API for the gathering of game information.<br /><br />Built using:<br /> .NET/c#
-            </span>
-          </div>
-          <p className="project-name">NextUp</p>
-        </a>
-
-        <a
-          href="https://surfspot.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="projects"
-          style={{ backgroundImage: 'url(/resources/Surfboards.jpg)'}}
-        >
-          <div className="tooltip">
-            <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-            <span className="tooltiptext">
-              An application displaying surf conditions for some of Cape Town's local spots and notifying subscribers when the conditions are good. Making use of the Open-Meteo marine API.<br /><br />Built using:<br /> Dart and Flutter
-            </span>
-          </div>
-          <p className="project-name">Surf Spot</p>
-        </a>
-
-        <a
-          href="https://bradley-laubscher.github.io/marketplace/"
-          target="_blank"
-          rel="noreferrer"
-          className="projects"
-          style={{ backgroundImage: 'url(/resources/Marketplace.jpg)' }}
-        >
-          <div className="tooltip">
-            <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-            <span className="tooltiptext">
-              A dynamic marketplace for multiple merchant types.<br /><br />Built using:<br /> Dart and Flutter
-            </span>
-          </div>
-          <p className="project-name">Marketplace</p>
-        </a>
-
-        <a
-          href="https://dulynoted-webapp.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="projects"
-          style={{ backgroundImage: 'url(/resources/NotePad.jpeg)' }}
-        >
-          <div className="tooltip">
-            <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-            <span className="tooltiptext">
-              A notepad webapp that allows the user to take notes, create categories for notes, and remove/update/filter notes.<br /><br />Built using:<br /> JavaScript, React, Redux, Html, and CSS
-            </span>
-          </div>
-          <p className="project-name">Duly Noted</p>
-        </a>
-
-        <a
-          href="https://top-travel-destinations.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="projects"
-          style={{ backgroundImage: 'url(/resources/Travel.jpg)' }}
-        >
-          <div className="tooltip">
-            <img src="/resources/info.png" alt="more information icon" className="infoIcon" />
-            <span className="tooltiptext">
-              A website providing information on top travel destinations around the world and a few tips for traveling.<br /><br />Built using:<br /> Next.js, React, Javascript, JSX, and CSS
-            </span>
-          </div>
-          <p className="project-name">Top Travel Destinations</p>
-        </a>
-
+        {projects.map((project) => (
+          <article className="project-card" key={project.name}>
+            <div
+              className="project-image"
+              style={{ backgroundImage: `url(${project.image})` }}
+              role="img"
+              aria-label={`${project.name} preview`}
+            />
+            <div className="project-info">
+              <h3 className="project-name">{project.name}</h3>
+              <p className="project-description">{project.description}</p>
+              <ul className="tech-tags">
+                {project.tech.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
+              <div className="project-links">
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <FaExternalLinkAlt aria-hidden="true" /> Live demo
+                </a>
+                {project.source ? (
+                  <a
+                    href={project.source}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-link"
+                  >
+                    <FaGithub aria-hidden="true" /> Source
+                  </a>
+                ) : (
+                  <span className="private-note" title="Source available on request">
+                    <FaLock aria-hidden="true" /> Private codebase
+                  </span>
+                )}
+              </div>
+            </div>
+          </article>
+        ))}
       </section>
     </motion.div>
   );

@@ -51,8 +51,9 @@ nav {
 
 /* Navbar Links */
 .navLinks {
+    position: relative; /* anchor the ::after underline to the link, not the nav */
     font-size: 22px;
-    margin: 0 15px; 
+    margin: 0 15px;
 }
 
 .navLinks:hover {
@@ -79,18 +80,34 @@ nav {
 /* Mobile Responsive Navigation */
 @media screen and (max-width: 768px) {
     nav {
-        flex-direction: column;
-        padding: 10px 3%;
-        text-align: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .logo1 {
+        position: static; /* back in the flex flow so it can't overlap the links */
     }
 
     .navLinks {
-        font-size: 18px;
-        margin: 10px 0;
+        font-size: 16px;
+        margin: 0 6px;
+        white-space: nowrap;
     }
 
     .logo1 img, .logo2 img {
         height: 30px;
         width: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navLinks {
+        font-size: 14px;
+        margin: 0 4px;
+    }
+
+    .logo1 img, .logo2 img {
+        height: 26px;
+        width: 26px;
     }
 }
