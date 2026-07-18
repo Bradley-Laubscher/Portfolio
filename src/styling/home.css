@@ -36,11 +36,15 @@
 }
 
 .homeButtons {
+    display: inline-block;
     margin: 15px;
     width: 180px;
     padding: 10px;
     border: none;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Gabriola', sans-serif;
+    color: white;
+    text-decoration: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: linear-gradient(135deg, #18f1df4b, #18f1df);
     animation: changeColor 5s linear infinite;
@@ -48,13 +52,6 @@
     cursor: pointer;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.homeButtons a {
-    font-size: 20px;
-    font-family: 'Gabriola', sans-serif;
-    color: white;
-    text-decoration: none;
 }
 
 .homeButtons:hover {

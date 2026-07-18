@@ -13,14 +13,14 @@ function App() {
       <div>
         <BlurImage 
           className="backgroundImage"
-          src='./Resources/laptop.jpg'
-          base64='./Resources/laptop-small.jpg'
+          src='/resources/laptop.jpg'
+          base64='/resources/laptop-small.jpg'
           alt='laptop open in the dark'
         />
         <section className='background'>
           <nav>
             <span className='logo1'>
-              <Link to='/'><img src="/Resources/house.png" alt="House icon" /></Link>
+              <Link to='/'><img src="/resources/house.png" alt="House icon" /></Link>
             </span>
             <Link to='/about' className='navLinks'>About Me</Link>
             <Link to='/projects' className='navLinks'>Projects</Link>

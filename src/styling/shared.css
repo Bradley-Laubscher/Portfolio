@@ -8,6 +8,11 @@
     color: white;
 }
 
+/* Prevent the horizontal scrollbar caused by route exit animations sliding off-screen */
+body {
+    overflow-x: hidden;
+}
+
 /* Background Image */
 .backgroundImage {
     width: 100%;
