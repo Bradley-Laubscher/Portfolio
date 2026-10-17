@@ -7,7 +7,7 @@ const projects = [
     description:
       "A football group tracker for managing sessions, seasons, players, stats and more.",
     tech: ["C#", ".NET", "Flutter"],
-    demo: "https://squadsync.bradleylaubscher.workers.dev/",
+    demo: "https://squadsync.co.za/",
     source: null, // private repository
     image: "/resources/squadsync.png",
   },
